@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Jirat Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit&family=Prompt&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images2/BCClogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="https://www.canva.com/design/DAEwaWdHKm8/pKYXuM_lkUHIoh2GMXsjpA/view?utm_content=DAEwaWdHKm8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">My PORTFOLIO</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100009783842773">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>Jirat Limanawong</h1>
+    <p>A student from Bankok Christian College <br> <br> track Sciences and Mathematics</p>
+    <a href="https://www.facebook.com/profile.php?id=100009783842773&sk=about" class="hero-btn">Know me more</a>
+</div>
+    </section>
+
+    <section>
+
+        <!---course--->
+        <section class="course">
+            <h1>Personal Information</h1>
+            <p>name: Jirat Limanawong</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Information</h3>
+                    <p>Nickname : Kaopoon <br> <br>
+                        Age : 18 years old <br> <br>
+                        Date of birth : 13th November 2003 <br> <br>
+                        Program : Sciences and Mathemathics <br> <br>
+                        Track : Engineering <br> <br>
+                        Hobby : Listening music, follow business news <br> <br>
+                        Talent : Basic programming, good leadership</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Grades <br> <br>
+                       GPAX :3.34<br><br>
+                       GPA Math English Sciences :3.27</p>
+                </div>
+                <div class="course-col">
+                    <h3>parent information</h3>
+                    <p>
+                         Name : Mr. Wisawat Limanawong <br> <br>
+                        Occupation : Owner Business <br> <br>
+                        Phone : 081-694-9392 <br> <br>
+                        Name : Ms. Anongorn Limanawong <br> <br>
+                        Occupation : housekeeper <br> <br>
+                        Phone : 085-510-1048</p>
+                </div>
+            </div>
+    </section>
+
+    <!----campus----->
+
+    <section class="campus">
+        <h1>My potential</h1>
+        <p>name: Jirat Limanawong</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images2/My port.jpg">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <a href="https://www.canva.com/design/DAEwaWdHKm8/pKYXuM_lkUHIoh2GMXsjpA/view?utm_content=DAEwaWdHKm8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" class="btn"> click here</a>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images2/sat.jpg">
+                <div class="layer" href=""img src="images2/sat score.pdf">
+                    <h3>English Test </h3>
+                    <a href="https://jerpard.github.io/Jirat_English_scores/" class="btn"> click here</a>
+                </div>
+            </div>
+                <div class="campus-col">
+                    <img src="images2/certificates.jpg">
+                    <div class="layer">
+                        <h3>My certicates</h3>
+                        <a href="https://jerpard.github.io/JiratCerticates/" class="btn"> click here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---call to action--->
+
+    <section class="cta">
+        <h1>This is my webstie</h1>
+        <a href="https://www.facebook.com/profile.php?id=100009783842773" class="hero-btn">contact me</a>
+    </section>
+
+    <!------JavaScript for Toggle Menu------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+
+</html> 
